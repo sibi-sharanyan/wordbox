@@ -1,0 +1,5 @@
+ A user can create a personalized link with their name. They can share the links to their friends, If a friend goes to the link a textbox with a send button should appear asking them to send a message , if the creator of the link goes there , the recieved messages should be displayed. We can either use client side cookies or server side cookies , lets see which would be better in this case.
+
+
+First screen to be done , 
+Ask a name and a button that says generate name. 
