@@ -1,14 +1,20 @@
-// *,
-// *::after,
-// *::before {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
 
-// html { 
-  
-// }
+
+
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { 
+  // font-size: 62.5%;
+
+}
 
 .g-100 {
   height: 90vh;
@@ -17,3 +23,42 @@
 .wap {
   width: 40px;
 }
+
+.h1tag {
+  font-size: 2rem;
+}
+
+.inputtag {
+  width: 40rem;
+  height: 5rem;
+  font-size: 10rem;
+}
+
+.mybtn {
+  width: 20rem;
+  font-size: 30rem;
+}
+.verysmalltext {
+  font-size: 1.2rem;
+}
+
+.smalltext {
+  font-size: 2rem;
+
+}
+
+.bigtext {
+  font-size: 10rem;
+
+}
+
+.verybigtext {
+  font-size: 50rem;
+
+}
+
+@media (max-width : 600px) {
+  html { 
+    font-size: 55%;
+  }
+  }

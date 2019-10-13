@@ -57,12 +57,12 @@ export default class GenLink extends Component {
   render() {
     if(this.state.isLinkGenerated === false) {
       return (
-        <div className = "g-100 d-flex justify-content-center">
+        <div className = "g-100 d-flex  container p-5 justify-content-center">
           <div className="d-flex justify-content-center align-items-center flex-column p-5">
-            <Typography variant="h6" align="center">
+            <h1 className = "h1tag">
               
-              Enter Your name to generate a link!
-            </Typography>
+              Enter Your name and start receiving messages!
+            </h1>
   
             <TextField
               id="standard-dense"
@@ -70,16 +70,19 @@ export default class GenLink extends Component {
               value={this.state.name}
               onChange={e => this.setState({ name: e.target.value })}
               margin="dense"
+              className = "inputtag"
             />
   
             <Button
               variant="contained"
               color="primary"
-              className = "mt-4"
+              className = "mt-4 mybtn"
               onClick = {this.generateLink}
             >
               Create Link
             </Button>
+
+            <img class="img-fluid mt-5" src="create.svg" alt=""/>
        
          {this.state.isLoading ?    <div className = "p-5 m-5">   <CircularProgress  />  </div>    : "" }  
 
