@@ -1,3 +1,15 @@
+A simple application that allows you to create custom mailboxes to which your friends can post short messages to. No sign-up or Login required. Just create your word-box and share it with your friends. 
+
+https://wordbox.netlify.com/
+
+
+The entire application was created in a span of 6 hours with React.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
